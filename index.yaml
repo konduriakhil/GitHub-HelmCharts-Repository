@@ -3,12 +3,12 @@ entries:
   killerkoda:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-17T13:48:49.337848+05:30"
+    created: "2024-11-17T13:55:53.0966312+05:30"
     description: A Helm chart for Kubernetes
     digest: a1a224ca0463d5c0710922e0f88bbae8677df1b15c03cb178b9f2aff2609267c
     name: killerkoda
     type: application
     urls:
-    - https://github.com/konduriakhil/GitHub-HelmCharts-Repository/killerkoda-0.1.0.tgz
+    - https://konduriakhil.github.io/GitHub-HelmCharts-Repository/killerkoda-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-17T13:48:49.3315112+05:30"
+generated: "2024-11-17T13:55:53.0928648+05:30"
