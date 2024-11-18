@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  Deployment:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-18T14:24:54.393854+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 5eb1f236f49583a5ac47a59c0e968bb28e1f0227bcde373a82d1542cc93117ff
+    name: Deployment
+    type: application
+    urls:
+    - https://konduriakhil.github.io/GitHub-HelmCharts-Repository/Deployment-0.1.0.tgz
+    version: 0.1.0
   killerkoda:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-18T11:20:27.4566914+05:30"
+    created: "2024-11-18T14:24:54.4187931+05:30"
     description: A Helm chart for Kubernetes
     digest: a1a224ca0463d5c0710922e0f88bbae8677df1b15c03cb178b9f2aff2609267c
     name: killerkoda
@@ -14,7 +25,7 @@ entries:
   secrets:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-18T11:20:27.4566914+05:30"
+    created: "2024-11-18T14:24:54.4391315+05:30"
     description: A Helm chart for Kubernetes
     digest: ff487e7442deb224a8dfb39cad5937a7befbdfb6bdbb26aacbf0b3c009a4fc5b
     name: secrets
@@ -22,4 +33,4 @@ entries:
     urls:
     - https://konduriakhil.github.io/GitHub-HelmCharts-Repository/secrets-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-18T11:20:27.4434443+05:30"
+generated: "2024-11-18T14:24:54.3918418+05:30"
