@@ -52,3 +52,8 @@ helm install app1 myrepo/secrets
 ```
 ![alt text](images/helm13.png)
 ![alt text](images/helm14.png)
+## Pull the charts to local machine to make any changes
+```sh
+helm pull myrepo/secrets
+```
+![alt text](images/helm15.png)
