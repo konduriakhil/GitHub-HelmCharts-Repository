@@ -12,3 +12,5 @@ entries:
     - https://konduriakhil.github.io/GitHub-HelmCharts-Repository/killerkoda-0.1.0.tgz
     version: 0.1.0
 generated: "2024-11-17T13:55:53.0928648+05:30"
+
+# helm repo add myrepo https://konduriakhil.github.io/GitHub-HelmCharts-Repository
