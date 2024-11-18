@@ -33,12 +33,22 @@ git push
 ## Adding the repository of charts to Other machine to use charts
 ![alt text](images/helm12.png)
 ```sh
+# Adding the repository
 helm repo add myrepo https://konduriakhil.github.io/GitHub-HelmCharts-Repository
+
+# Update the repository
+helm repo update myrepo
+
+# List the repositories
 helm repo list
-helm repo update
+
+# To search available charts in a repository
+helm search repo myrepo
 ```
 ## Deploy the helm chart
 ```sh
 # helm install <release-name> myrepo/<chart-name>
 helm install app1 myrepo/secrets
 ```
+![alt text](images/helm13.png)
+![alt text](images/helm14.png)
