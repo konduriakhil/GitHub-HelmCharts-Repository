@@ -14,13 +14,15 @@ helm package <chart-directory>
 ![alt text](../images/helm6.png)
   ### Change the Branch to main
   ![alt text](../images/helm7.png)
-  
+
 ## Push these changes to the GitHub Pages repository
 ```sh
 git add .
 git commit -m "push the secrets to GitHub Pages"
 git push
 ```
+![alt text](../images/helm8.png)
+
 ```sh
 helm package <chart-directory>
 helm repo index ./charts --url https://<your-username>.github.io/<repository-name>
